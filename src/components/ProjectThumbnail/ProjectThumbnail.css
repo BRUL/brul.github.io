@@ -1,0 +1,65 @@
+/*
+* Header
+*/
+
+.Header {
+  padding: 1em;
+}
+
+.Header .logo, .Header .menu {
+  padding: 0;
+  margin: 0 auto 1em;
+  text-align: center;
+}
+
+.Header .logo {
+
+}
+.Header .logo a {
+  padding: 0;
+}
+.Header .logo a img {
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+}
+
+.Header .menu a {
+  color: #000000;
+  padding: 0 1em;
+  text-decoration: none;
+}
+
+.Header .menu a:active, .Header .menu a.active, .Header .menu a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .Header {
+    padding: 4em;
+  }
+
+  .Header .logo {
+    text-align: left;
+  }
+
+  .Header .logo img {
+    height: 3em;
+  }
+
+  .Header .menu {
+    text-align: right;
+    height: 3em;
+  }
+
+  .Header .menu a {
+    padding: 0 0 0 1em;
+  }
+
+  .Header .menu a:before, .Header .menu span:before, .Header .logo a {    /* create a full-height inline block pseudo=element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: bottom;;  /* vertical alignment of the inline element */
+    height: 100%;
+  }
+}

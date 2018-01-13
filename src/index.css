@@ -1,5 +1,22 @@
+/*
+* Global styles
+*/
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: NeueHaasUnicaPro-Regular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.885rem;
+}
+abbr {
+  text-decoration: none;
+}
+p.credit {
+  font-size: 12px;
+}
+a, a.ninja:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+a.ninja {
+  text-decoration: none;
 }
