@@ -1,44 +1,57 @@
 .ProjectCarousel {
-  width: 100%; }
+  width: 100%;
+}
 
 .ProjectCarousel .carousel-item {
   margin: auto;
-  text-align: center; }
+  text-align: center;
+}
 
 .ProjectCarousel img {
   max-width: 80vw;
   max-height: 80vh;
   width: auto;
-  display: inline-block !important; }
+
+  display: inline-block !important;
+}
 
 .ProjectCarousel .description p {
   text-align: left;
   max-width: 50vw;
   margin: auto;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 
 /* controls */
 .ProjectCarousel .carousel-control-prev,
 .ProjectCarousel .carousel-control-next {
   background: none;
   color: #000000;
-  width: 40vw; }
-
+  width: 40vw;
+}
 .ProjectCarousel .carousel-control-prev-icon {
-  left: 20%; }
-
+  left: 20%;
+}
 .ProjectCarousel .carousel-control-next-icon {
-  right: 20%; }
+  right: 20%;
+}
 
 @media screen and (min-width: 768px) {
   .ProjectCarousel {
-    margin-bottom: 4em; }
+    margin-bottom: 4em;
+  }
+
   .ProjectCarousel .carousel-item {
-    min-height: 50vh; }
+    min-height: 50vh;
+  }
   .ProjectCarousel img {
     max-width: 80vw;
-    max-height: 70vh; }
+    max-height: 70vh;
+  }
+
   .ProjectCarousel .carousel-caption {
     text-align: left;
     max-width: 50vw;
-    margin: auto; } }
+    margin: auto;
+  }
+}

@@ -3,24 +3,23 @@
   width: 100vw;
   margin: 0;
   padding: 0;
-  background: #ffffff;
-}
+  background: #ffffff; }
 
 .Splash a {
   display: block;
   height: 100vh;
   text-align: center;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
-.Splash a:before {    /* create a full-height inline block pseudo=element */
+.Splash a:before {
+  /* create a full-height inline block pseudo=element */
   content: ' ';
   display: inline-block;
-  vertical-align: middle;  /* vertical alignment of the inline element */
-  height: 100%;
-}
+  vertical-align: middle;
+  /* vertical alignment of the inline element */
+  height: 100%; }
 
 .Splash img {
   display: inline-block;
-  vertical-align: middle;  /* vertical alignment of the inline element */
-}
+  vertical-align: middle;
+  /* vertical alignment of the inline element */ }
