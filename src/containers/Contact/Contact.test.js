@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Splash from './Splash';
+import { MemoryRouter } from 'react-router-dom';
+import Contact from './Contact';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Splash />, div);
+  ReactDOM.render(
+    <MemoryRouter>
+      <Contact />
+    </MemoryRouter>, div);
 });

@@ -12,22 +12,24 @@ class Project extends Component {
     super(props);
 
     this.state = {
-      project: projectRepository.byId(props.match.params.id)
+      project: props.match ? projectRepository.byId(props.match.params.id) : null
     };
   }
 
   render() {
-    return (
-      <div className="Project container-fluid">
-        <Header>
-          <span>{this.state.project.description}</span>
-        </Header>
+    const { project } = this.state;
 
-        <div className="row">
-          <ProjectCarousel project={this.state.project} />
+    return project ? (
+        <div className="Project container-fluid">
+          <Header>
+            <span>{this.state.project.description}</span>
+          </Header>
+
+          <div className="row">
+            <ProjectCarousel project={this.state.project} />
+          </div>
         </div>
-      </div>
-    );
+      ) : null;
   }
 }
 
