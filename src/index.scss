@@ -1,26 +1,25 @@
-@charset "UTF-8";
 /*
 * Global styles
 */
-@import url("//hello.myfonts.net/count/341da0");
 body {
   font-family: NeueHaasUnicaPro-Regular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 0.885rem; }
-
+  font-size: 0.885rem;
+}
 abbr {
-  text-decoration: none; }
-
+  text-decoration: none;
+}
 p.credit {
-  font-size: 12px; }
-
+  font-size: 12px;
+}
 a, a.ninja:hover {
   color: #000000;
-  text-decoration: underline; }
-
+  text-decoration: underline;
+}
 a.ninja {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /**
 * Fonts
@@ -45,8 +44,17 @@ a.ninja {
  *
  * © 2017 MyFonts Inc
 */
+
+
 /* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/341da0");
+
+
 @font-face {
   font-family: 'NeueHaasUnicaPro-Regular';
-  src: url("./fonts/341DA0_0_0.eot");
-  src: url("./fonts/341DA0_0_0.eot?#iefix") format("embedded-opentype"), url("./fonts/341DA0_0_0.woff2") format("woff2"), url("./fonts/341DA0_0_0.woff") format("woff"), url("./fonts/341DA0_0_0.ttf") format("truetype"); }
+  src: url('./fonts/341DA0_0_0.eot');
+  src: url('./fonts/341DA0_0_0.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/341DA0_0_0.woff2') format('woff2'),
+  url('./fonts/341DA0_0_0.woff') format('woff'),
+  url('./fonts/341DA0_0_0.ttf') format('truetype');
+}
