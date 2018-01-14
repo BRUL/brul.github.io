@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import Logo from '../Logo/Logo';
+import Menu from '../Menu/Menu';
 
 import './Header.css';
 
@@ -12,11 +13,13 @@ class Header extends Component {
           <Link to="/projects"><Logo /></Link>
         </div>
 
-        <p className="col-sm-8 menu">
-          <NavLink to="/projects">Projecten</NavLink>
-          <NavLink to="/info">Informatie</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
-        </p>
+        <div className="col-sm-8 text-right">
+          {
+            this.props.children ?
+              this.props.children :
+              <Menu />
+          }
+        </div>
       </div>
     );
   }

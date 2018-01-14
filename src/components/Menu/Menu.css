@@ -1,0 +1,31 @@
+.Menu a {
+  color: #000000;
+  padding: 0 1em;
+  text-decoration: none;
+}
+
+.Menu a:active,
+.Menu a.active,
+.Menu a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .Menu {
+    /*text-align: right;*/
+    height: 3em;
+  }
+
+  .Menu a {
+    padding: 0 0 0 1em;
+  }
+
+  .Menu a:before,
+  .Menu span:before,
+  .logo a {    /* create a full-height inline block pseudo=element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: bottom;;  /* vertical alignment of the inline element */
+    height: 100%;
+  }
+}

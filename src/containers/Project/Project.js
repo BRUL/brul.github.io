@@ -19,7 +19,9 @@ class Project extends Component {
   render() {
     return (
       <div className="Project container-fluid">
-        <Header/>
+        <Header>
+          <span>{this.state.project.description}</span>
+        </Header>
 
         <div className="row">
           <ProjectCarousel project={this.state.project} />
