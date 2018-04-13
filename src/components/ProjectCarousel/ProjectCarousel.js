@@ -59,9 +59,15 @@ class ProjectCarousel extends Component {
           onExiting={this.onExiting}
           onExited={this.onExited}
           key={picture.src}
-          src={`/img/${project.name}/res600/${picture.src}`}
           cssModule={{}}
         >
+          {
+            picture.src ?
+              <img src={`/img/${project.name}/res600/${picture.src}`} alt={project.name} /> :
+              <div className="description">
+                <p>{picture.description}</p>
+              </div>
+          }
         </CarouselItem>
       );
 

@@ -21,6 +21,12 @@ export default {
       {
         src: 'kolom4.jpg',
         description: ''
+      },
+      {
+        src: '',
+        description: `Kolom is de ruggengraat die de boeken een vertikale positie in de ruimte laat aannemen.
+        Kolom is een nog in proces zijnde zoektocht naar de interactie tussen het boek, de verzameling en de ruimte.
+        Je kan Kolom op de voet volgen via Facebook of Instagram.`
       }
     ]
   },
