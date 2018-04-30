@@ -63,10 +63,14 @@ class ProjectCarousel extends Component {
         >
           {
             picture.src ?
-              <img src={`/img/${project.name}/res600/${picture.src}`} alt={project.name} /> :
+              <img src={`/img/${project.name}/res600/${picture.src}`} alt={project.name} /> : null
+          }
+
+          {
+            picture.description ? 
               <div className="description">
                 <p>{picture.description}</p>
-              </div>
+              </div> : null
           }
         </CarouselItem>
       );
