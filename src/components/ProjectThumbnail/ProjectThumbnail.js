@@ -25,7 +25,7 @@ class ProjectThumbnail extends Component {
     const { title, name, thumb } = this.props;
     const { loaded } = this.state;
 
-    const classNames = classnames('col-sm-3 project hidden-xs ProjectThumbnail', { 'loaded': loaded });
+    const classNames = classnames('col-sm-3 project ProjectThumbnail', { 'loaded': loaded });
 
     return (
       <div className={classNames}>
