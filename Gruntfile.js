@@ -12,8 +12,8 @@ module.exports = function (grunt) {
             { name: "small", suffix: "_@2x", quality: 60, width: 600 },
             { name: "medium", suffix: "_@1x", quality: 60, width: 720 },
             { name: "medium", suffix: "_@2x", quality: 60, width: 1440 },
-            { name: "lg", suffix: "_@1x", quality: 60, width: 1500 },
-            { name: "lg", suffix: "_@2x", quality: 60, width: 3000 }
+            { name: "large", suffix: "_@1x", quality: 60, width: 1500 },
+            { name: "large", suffix: "_@2x", quality: 60, width: 3000 }
           ]
         },
         files: [

@@ -32,14 +32,14 @@ class ProjectThumbnail extends Component {
         <Link to={`/projects/${name}`}>
           <img src={`${thumb}`}
                srcSet={`
-               responsive-images/dist/${name}-large_@2x.jpg 3000w,
-               responsive-images/dist/${name}-large_@1x.jpg 1500w,
-               responsive-images/dist/${name}-medium_@2x.jpg 1440w,
-               responsive-images/dist/${name}-medium_@1x.jpg 720w,
-               responsive-images/dist/${name}-small_@2x.jpg 600w,
-               responsive-images/dist/${name}-small_@1x.jpg 300w,
-               responsive-images/dist/${name}-tiny_@2x.jpg 290w,
-               responsive-images/dist/${name}-tiny_@1x.jpg 145w
+               responsive-images/dist/${name}/${name}0-large_@2x.jpg 3000w,
+               responsive-images/dist/${name}/${name}0-large_@1x.jpg 1500w,
+               responsive-images/dist/${name}/${name}0-medium_@2x.jpg 1440w,
+               responsive-images/dist/${name}/${name}0-medium_@1x.jpg 720w,
+               responsive-images/dist/${name}/${name}0-small_@2x.jpg 600w,
+               responsive-images/dist/${name}/${name}0-small_@1x.jpg 300w,
+               responsive-images/dist/${name}/${name}0-tiny_@2x.jpg 290w,
+               responsive-images/dist/${name}/${name}0-tiny_@1x.jpg 145w
              `}
                sizes="
               (min-width: 576px) calc(25vw - 8em),

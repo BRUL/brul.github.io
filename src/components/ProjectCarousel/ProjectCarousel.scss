@@ -8,11 +8,8 @@
 }
 
 .ProjectCarousel img {
-  max-width: 80vw;
-  max-height: 80vh;
   width: auto;
-
-  display: inline-block !important;
+  max-height: 70vh;
 }
 
 .ProjectCarousel .description p {
@@ -44,14 +41,9 @@
   .ProjectCarousel .carousel-item {
     min-height: 50vh;
   }
-  .ProjectCarousel img {
-    max-width: 80vw;
-    max-height: 70vh;
-  }
 
   .ProjectCarousel .carousel-caption {
     text-align: left;
-    max-width: 50vw;
     margin: auto;
   }
 }

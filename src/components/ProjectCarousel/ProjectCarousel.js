@@ -5,6 +5,7 @@ import {
   CarouselItem,
   CarouselControl
 } from 'reactstrap';
+import ProjectCarouselImage from '../ProjectCarouselImage/ProjectCarouselImage';
 import './ProjectCarousel.css';
 
 class ProjectCarousel extends Component {
@@ -63,7 +64,11 @@ class ProjectCarousel extends Component {
         >
           {
             picture.src ?
-              <img src={`/img/${project.name}/res600/${picture.src}`} alt={project.name} /> : null
+              <ProjectCarouselImage projectName={project.name}
+                                    imageName={picture.src}
+                                    alt={project.name}
+                                    title={picture.description}
+              /> : null
           }
 
           {

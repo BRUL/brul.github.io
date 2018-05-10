@@ -1,28 +1,25 @@
-import glorietteBase64Thumb from '../../base64-images/gloriette';
-import stillBase64Thumb from '../../base64-images/still';
-
 export default {
   'kolom': {
     name: 'kolom',
     order: 1703,
     title: 'Kolom',
     description: 'Boekenkast, 2017.',
-    thumb: glorietteBase64Thumb,
+    thumb: 'kolom0',
     pictures: [
       {
-        src: 'kolom1.jpg',
+        src: 'kolom1',
         description: ''
       },
       {
-        src: 'kolom2.jpg',
+        src: 'kolom2',
         description: ''
       },
       {
-        src: 'kolom3.jpg',
+        src: 'kolom3',
         description: ''
       },
       {
-        src: 'kolom4.jpg',
+        src: 'kolom4',
         description: ''
       },
       {
@@ -38,38 +35,38 @@ export default {
     order: 1701,
     title: 'Folie à Deux',
     description: 'Koffiehuis in Gent, 2017.',
-    thumb: stillBase64Thumb,
+    thumb: 'folieadeux0',
     pictures: [
       {
-        src: 'folieadeux1.jpg',
+        src: 'folieadeux1',
         description: ''
       },
       {
-        src: 'folieadeux2.jpg',
+        src: 'folieadeux2',
         description: ''
       },
       {
-        src: 'folieadeux3.jpg',
+        src: 'folieadeux3',
         description: ''
       },
       {
-        src: 'folieadeux4.jpg',
+        src: 'folieadeux4',
         description: ''
       },
       {
-        src: 'folieadeux5.jpg',
+        src: 'folieadeux5',
         description: ''
       },
       {
-        src: 'folieadeux6.jpg',
+        src: 'folieadeux6',
         description: ''
       },
       {
-        src: 'folieadeux7.jpg',
+        src: 'folieadeux7',
         description: ''
       },
       {
-        src: 'folieadeux8.jpg',
+        src: 'folieadeux8',
         description: ''
       }
     ]
@@ -79,18 +76,18 @@ export default {
     order: 1510,
     title: 'Still',
     description: 'Tafel, 2015.',
-    thumb: stillBase64Thumb,
+    thumb: 'still0',
     pictures: [
       {
-        src: 'still1.jpg',
+        src: 'still1',
         description: ''
       },
       {
-        src: 'still2.jpg',
+        src: 'still2',
         description: ''
       },
       {
-        src: 'still3.jpg',
+        src: 'still3',
         description: ''
       }
     ]
@@ -100,38 +97,38 @@ export default {
     order: 1509,
     title: 'Gloriette',
     description: 'Tuinomgeving in Poperinge, 2015.',
-    thumb: glorietteBase64Thumb,
+    thumb: 'gloriette0',
     pictures: [
       {
-        src: 'gloriette1.jpg',
+        src: 'gloriette1',
         description: ''
       },
       {
-        src: 'gloriette2.jpg',
+        src: 'gloriette2',
         description: ''
       },
       {
-        src: 'gloriette3.jpg',
+        src: 'gloriette3',
         description: ''
       },
       {
-        src: 'gloriette4.jpg',
+        src: 'gloriette4',
         description: ''
       },
       {
-        src: 'gloriette5.jpg',
+        src: 'gloriette5',
         description: ''
       },
       {
-        src: 'gloriette6.jpg',
+        src: 'gloriette6',
         description: ''
       },
       {
-        src: 'gloriette7.jpg',
+        src: 'gloriette7',
         description: ''
       },
       {
-        src: 'gloriette8.jpg',
+        src: 'gloriette8',
         description: ''
       }
     ]
