@@ -1,10 +1,13 @@
+import glorietteBase64Thumb from '../../base64-images/gloriette';
+import stillBase64Thumb from '../../base64-images/still';
+
 export default {
   'kolom': {
     name: 'kolom',
     order: 1703,
     title: 'Kolom',
     description: 'Boekenkast, 2017.',
-    thumb: 'kolom0.jpg',
+    thumb: glorietteBase64Thumb,
     pictures: [
       {
         src: 'kolom1.jpg',
@@ -35,7 +38,7 @@ export default {
     order: 1701,
     title: 'Folie à Deux',
     description: 'Koffiehuis in Gent, 2017.',
-    thumb: 'folieadeux0.jpg',
+    thumb: stillBase64Thumb,
     pictures: [
       {
         src: 'folieadeux1.jpg',
@@ -76,7 +79,7 @@ export default {
     order: 1510,
     title: 'Still',
     description: 'Tafel, 2015.',
-    thumb: 'still0.jpg',
+    thumb: stillBase64Thumb,
     pictures: [
       {
         src: 'still1.jpg',
@@ -97,7 +100,7 @@ export default {
     order: 1509,
     title: 'Gloriette',
     description: 'Tuinomgeving in Poperinge, 2015.',
-    thumb: 'gloriette0.jpg',
+    thumb: glorietteBase64Thumb,
     pictures: [
       {
         src: 'gloriette1.jpg',

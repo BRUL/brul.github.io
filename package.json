@@ -5,6 +5,7 @@
   "homepage": "https://nejd.be",
   "dependencies": {
     "bootstrap": "4.1.0",
+    "classnames": "2.2.5",
     "node-sass-chokidar": "1.2.2",
     "npm-run-all": "4.1.2",
     "react": "16.3.1",
@@ -22,6 +23,12 @@
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && cd build && mv index.html 200.html && surge ."
+    "deploy": "npm run build && cd build && mv index.html 200.html && surge .",
+    "convert-placeholders-to-base64-images": "node convert-placeholders-to-base64-images.js"
+  },
+  "devDependencies": {
+    "grunt": "1.0.2",
+    "grunt-responsive-images": "1.10.1",
+    "jimp": "0.2.28"
   }
 }
