@@ -6,6 +6,8 @@ module.exports = function (grunt) {
           engine: 'gm',
           sizes: [
             { name: "placeholder", quality: 20, width: 27 },
+            { name: "tiny", suffix: "_@1x", quality: 60, width: 145 },
+            { name: "tiny", suffix: "_@2x", quality: 60, width: 290 },
             { name: "small", suffix: "_@1x", quality: 60, width: 300 },
             { name: "small", suffix: "_@2x", quality: 60, width: 600 },
             { name: "medium", suffix: "_@1x", quality: 60, width: 720 },

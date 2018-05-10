@@ -1,6 +1,7 @@
 .ProjectThumbnail a,
 .ProjectThumbnail img {
-  display: block; }
+  display: block;
+  width: 100%; }
 
 .ProjectThumbnail img {
   transition: filter .5s ease; }
