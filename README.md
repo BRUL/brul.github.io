@@ -1,6 +1,9 @@
+Website NEJD [![Build Status](https://travis-ci.com/Voles/website-nejd.svg?branch=master)](https://travis-ci.com/Voles/website-nejd)
+============
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-# Nieuwe afbeelding toevoegen
+## Nieuwe afbeelding toevoegen
 
 Kan in `/responsive-images/<naam-project>/<naam-afbeelding>.jpg`.
 Momenteel is er alleen ondersteuning voor JPG-bestanden.
