@@ -1,42 +1,34 @@
-/*
-* Header
-*/
-
 .Header {
   padding: 1em;
-}
 
-.Header .logo,
-.Header .menu {
-  padding: 0;
-  margin: 0 auto 1em;
-  text-align: center;
-}
+  .logo,
+  .menu {
+    padding: 0;
+    margin: 0 auto 1em;
+    text-align: center;
+  }
 
-.Header .logo {
+  .logo a {
+    padding: 0;
 
-}
-
-.Header .logo a {
-  padding: 0;
-}
-
-.Header .logo a img {
-  object-fit: contain;
-  margin: 0;
-  padding: 0;
+    img {
+      object-fit: contain;
+      margin: 0;
+      padding: 0;
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
   .Header {
     padding: 4em;
-  }
 
-  .Header .logo {
-    text-align: left;
-  }
+    .logo {
+      text-align: left;
 
-  .Header .logo img {
-    height: 3em;
+      img {
+        height: 3em;
+      }
+    }
   }
 }
