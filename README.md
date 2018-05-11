@@ -1,7 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-# Useful commands
+# Nieuwe afbeelding toevoegen
 
-* Generating responsive images
+Kan in `/public/responsive-images/src/<naam-project>/<naam-afbeelding>.jpg`.
+Momenteel is er alleen ondersteuning voor JPG-bestanden.
 
-    $ generate-images
+Na het toevoegen moet je opnieuw de responsive images genereren.
+Dat kan met behulp van `$ generate-responsive-images`.

@@ -25,7 +25,7 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build && cd build && mv index.html 200.html && surge .",
     "convert-placeholders-to-base64-images": "node convert-placeholders-to-base64-images.js",
-    "generate-images": "grunt && npm run convert-placeholders-to-base64-images"
+    "generate-responsive-images": "grunt && npm run convert-placeholders-to-base64-images"
   },
   "devDependencies": {
     "grunt": "1.0.2",
