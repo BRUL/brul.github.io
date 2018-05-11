@@ -20,8 +20,8 @@ module.exports = function (grunt) {
           {
             expand: true,
             src: [ "**/*.{jpg,png}" ],
-            cwd: "public/responsive-images/src/",
-            dest: "public/responsive-images/dist/"
+            cwd: "responsive-images/",
+            dest: "public/responsive-images/"
           }
         ]
       }

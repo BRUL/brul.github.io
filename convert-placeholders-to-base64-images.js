@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
-const Jimp = require('jimp');
-const mkdirp = require('mkdirp');
 const fs = require('fs');
+const path = require('path');
+const Jimp = require('jimp');
+const recursive = require('recursive-readdir');
 
 const writeFile = (path, contents) => {
   return new Promise((resolve, reject) => {
@@ -16,17 +17,6 @@ const writeFile = (path, contents) => {
       });
   })
 };
-
-const makeSureDirExists = path =>
-  new Promise((resolve, reject) => {
-    mkdirp(path, function (err) {
-      if (err) {
-        reject(err);
-      } else {
-        resolve();
-      }
-    });
-  });
 
 const imageToBase64 = path => {
   return Jimp
@@ -46,25 +36,22 @@ const imageToBase64 = path => {
     });
 };
 
-const recursive = require('recursive-readdir');
-const path = require('path');
-
-const src = 'public/responsive-images/src';
+const src = 'responsive-images';
 const resultMap = {};
+
 recursive(src, function (err, files) {
   const relativeFiles = files
     .map(file => path.relative(src, file))
-    .map(file => removeExtention(file));
+    .map(file => removeExtention(file))
+    .filter(file => filterEmpty(file));
 
   const result = relativeFiles
-    .map(imageSrc => {
-      const projectName = path.dirname(imageSrc);
-      return makeSureDirExists(`src/base64-images/${projectName}/`)
-        .then(() => imageToBase64(`public/responsive-images/dist/${imageSrc}-placeholder.jpg`))
+    .map(imageSrc =>
+      imageToBase64(`public/responsive-images/${imageSrc}-placeholder.jpg`)
         .then(contents => {
           resultMap[imageSrc] = contents;
         })
-    });
+    );
 
   return Promise.all(result)
     .then(() => {
@@ -77,4 +64,7 @@ recursive(src, function (err, files) {
 
 const removeExtention = path =>
   path.replace(/\.[^/.]+$/, '');
+
+const filterEmpty = path =>
+  path && path.length > 0;
 
