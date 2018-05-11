@@ -32,14 +32,14 @@ class ProjectCarouselImage extends Component {
       <img className={classNames}
            src={`${base64Thumbs[`${projectName}/${imageName}`]}`}
            srcSet={`
-               /responsive-images/dist/${projectName}/${imageName}-large_@2x.jpg 3000w,
-               /responsive-images/dist/${projectName}/${imageName}-large_@1x.jpg 1500w,
-               /responsive-images/dist/${projectName}/${imageName}-medium_@2x.jpg 1440w,
-               /responsive-images/dist/${projectName}/${imageName}-medium_@1x.jpg 720w,
-               /responsive-images/dist/${projectName}/${imageName}-small_@2x.jpg 600w,
-               /responsive-images/dist/${projectName}/${imageName}-small_@1x.jpg 300w,
-               /responsive-images/dist/${projectName}/${imageName}-tiny_@2x.jpg 290w,
-               /responsive-images/dist/${projectName}/${imageName}-tiny_@1x.jpg 145w
+               /responsive-images/${projectName}/${imageName}-large_@2x.jpg 3000w,
+               /responsive-images/${projectName}/${imageName}-large_@1x.jpg 1500w,
+               /responsive-images/${projectName}/${imageName}-medium_@2x.jpg 1440w,
+               /responsive-images/${projectName}/${imageName}-medium_@1x.jpg 720w,
+               /responsive-images/${projectName}/${imageName}-small_@2x.jpg 600w,
+               /responsive-images/${projectName}/${imageName}-small_@1x.jpg 300w,
+               /responsive-images/${projectName}/${imageName}-tiny_@2x.jpg 290w,
+               /responsive-images/${projectName}/${imageName}-tiny_@1x.jpg 145w
              `}
            sizes="
               (min-width: 768px) 70vw,
