@@ -4,21 +4,22 @@ import {
   Switch,
   BrowserRouter as Router
 } from 'react-router-dom';
+import asyncComponent from '../../components/AsyncComponent/AsyncComponent';
 
-import Splash from '../Splash/Splash';
-import Projects from '../Projects/Projects';
-import Project from '../Project/Project';
-import Info from '../Info/Info';
-import Contact from '../Contact/Contact';
+const AsyncSplash = asyncComponent(() => import('../Splash/Splash'));
+const AsyncProjects = asyncComponent(() => import('../Projects/Projects'));
+const AsyncProject = asyncComponent(() => import('../Project/Project'));
+const AsyncInfo = asyncComponent(() => import('../Info/Info'));
+const AsyncContact = asyncComponent(() => import('../Contact/Contact'));
 
 const App = () => (
   <Router>
     <Switch>
-      <Route exact path='/' component={Splash} />
-      <Route exact path='/projects' component={Projects} />
-      <Route exact path='/projects/:id' component={Project} />
-      <Route exact path='/info' component={Info} />
-      <Route exact path='/contact' component={Contact} />
+      <Route exact path='/' component={AsyncSplash} />
+      <Route exact path='/projects' component={AsyncProjects} />
+      <Route exact path='/projects/:id' component={AsyncProject} />
+      <Route exact path='/info' component={AsyncInfo} />
+      <Route exact path='/contact' component={AsyncContact} />
     </Switch>
   </Router>
 )
