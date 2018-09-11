@@ -7,7 +7,7 @@ export default {
     thumb: 'kolom0',
     pictures: [
       {
-        src: 'kolom1',
+        src: 'kolom3',
         description: ''
       },
       {
@@ -15,18 +15,12 @@ export default {
         description: ''
       },
       {
-        src: 'kolom3',
+        src: 'kolom1',
         description: ''
       },
       {
         src: 'kolom4',
         description: ''
-      },
-      {
-        src: '',
-        description: `Kolom is de ruggengraat die de boeken een vertikale positie in de ruimte laat aannemen.
-        Kolom is een nog in proces zijnde zoektocht naar de interactie tussen het boek, de verzameling en de ruimte.
-        Je kan Kolom op de voet volgen via Facebook of Instagram.`
       }
     ]
   },
@@ -42,31 +36,24 @@ export default {
         description: ''
       },
       {
-        src: 'folieadeux2',
-        description: ''
-      },
-      {
-        src: 'folieadeux3',
-        description: ''
-      },
-      {
-        src: 'folieadeux4',
-        description: ''
-      },
-      {
-        src: 'folieadeux5',
-        description: ''
-      },
-      {
-        src: 'folieadeux6',
-        description: ''
-      },
-      {
-        src: 'folieadeux7',
+        src: [
+          'folieadeux2',
+          'folieadeux7'
+        ],
         description: ''
       },
       {
         src: 'folieadeux8',
+        description: ''
+      },
+      {
+        src: [
+          'folieadeux6',
+          'folieadeux4'
+        ]
+      },
+      {
+        src: 'folieadeux5',
         description: ''
       }
     ]
