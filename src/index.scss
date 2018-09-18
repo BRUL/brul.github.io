@@ -3,6 +3,16 @@ $carousel-control-next-icon-bg: url('./components/ProjectCarousel/chevron-right-
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1500ms ease-in;
+}
+
 /*
 * Global styles
 */
