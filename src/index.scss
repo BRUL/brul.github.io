@@ -9,8 +9,17 @@ $carousel-control-next-icon-bg: url('./components/ProjectCarousel/chevron-right-
 }
 
 .fade-exit.fade-exit-active {
-  opacity: 0;
-  transition: opacity 1500ms ease-in;
+  &.Splash {
+    opacity: 0;
+    transition: opacity 1500ms ease-in;
+  }
+}
+
+.fade-exit.fade-exit-active {
+  &.Projects,
+  &.Project {
+    display: none;
+  }
 }
 
 /*
