@@ -16,6 +16,8 @@ $carousel-control-next-icon-bg: url('./components/ProjectCarousel/chevron-right-
 }
 
 .fade-exit.fade-exit-active {
+  &.Info,
+  &.Contact,
   &.Projects,
   &.Project {
     display: none;
