@@ -1,4 +1,26 @@
+$carousel-control-prev-icon-bg: url('./components/ProjectCarousel/chevron-left-solid.svg');
+$carousel-control-next-icon-bg: url('./components/ProjectCarousel/chevron-right-solid.svg');
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-exit.fade-exit-active {
+  &.Splash {
+    opacity: 0;
+    transition: opacity 1500ms ease-in;
+  }
+}
+
+.fade-exit.fade-exit-active {
+  &.Projects,
+  &.Project {
+    display: none;
+  }
+}
 
 /*
 * Global styles
