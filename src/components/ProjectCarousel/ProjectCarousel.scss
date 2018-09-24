@@ -28,6 +28,13 @@
   cursor: pointer;
 }
 
+.ProjectCarousel .carousel-control-prev {
+  margin-right: 50%;
+}
+.ProjectCarousel .carousel-control-next {
+  margin-left: 50%;
+}
+
 @media screen and (min-width: 768px) {
   .ProjectCarousel {
     margin-bottom: 4em;
