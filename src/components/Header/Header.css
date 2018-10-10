@@ -18,4 +18,6 @@
     .Header .logo {
       text-align: left; }
       .Header .logo img {
-        height: 3em; } }
+        height: 3em; }
+    .Header .text-right {
+      padding-right: 0; } }
