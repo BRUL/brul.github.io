@@ -87,7 +87,7 @@ export default {
     name: 'still',
     order: 1510,
     title: 'Still',
-    description: 'Tafel, 2015.',
+    description: 'Still, 2015.',
     thumb: 'still0',
     pictures: [
       {
