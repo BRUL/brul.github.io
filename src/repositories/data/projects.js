@@ -24,9 +24,7 @@ export default {
       },
       {
         src: '',
-        description: `Kolom is de ruggengraat die de boeken een vertikale positie in de ruimte laat aannemen.
-        Kolom is een nog in proces zijnde zoektocht naar de interactie tussen het boek, de verzameling en de ruimte.
-        Je kan Kolom op de voet volgen via Facebook of Instagram.`
+        description: `Kolom is de ruggengraat die de boeken een vertikale positie in de ruimte laat aannemen.`
       }
     ]
   },
@@ -68,6 +66,9 @@ export default {
       {
         src: 'folieadeux8',
         description: ''
+      },
+      {
+        description: 'Voor het inrichten van een koffiehuis in een voormalige burgerwoning, was het noodzakelijk om bepaalde elementen uit het interieur te halen en ontbrekende voorzieningen toe te voegen. We hebben deze twee handelingen echt als  afzonderlijke interventies beschouwd. Ze afzonderlijk ontwerpen verduidelijkte meteen aan welke elementen er waarde wordt gehecht. Het weghalen stond voor ons steeds in functie van het beter laten uitkomen van bestaande delen maar het toont zich ook fysiek in de ruimte, met een massa en vaak ook kleuraanduiding. Enkel waar het oorspronkelijke interieur voorzieningen miste werden elementen toegevoegd, die dan wel afstand houden van hun omgeving zodat ze een open interactie aangaan met de gebruiker. Het zijn vrijblijvende, haast abstracte volumes die hun gebruik subtiel suggereren. In geen geval zouden ze het oorspronkelijke interieur willen imiteren of beïnvloeden. We hopen dat door de manier waarop we weggenomen en toegevoegd hebben, er een omgeving is ontstaan die de uniciteit in ere houdt en uitnodigt om ze ongedwongen te gaan ontdekken.'
       }
     ]
   },
@@ -89,6 +90,9 @@ export default {
       {
         src: 'still3',
         description: ''
+      },
+      {
+        description: 'Still is altijd in beweging voor de aanschouwer. De structuur van rond staal lijkt toch telkens weer te ontsnappen aan zijn begrip ervan.Door rond het object te stappen verandert het beeld, terwijl de onderliggende structuur als een schim zichtbaar wordt. Zo complex de structuur, zo eenvoudig het tafelblad; een massief stuk hardhout met nét de juiste afmetingen op nét de juiste hoogte.'
       }
     ]
   },
