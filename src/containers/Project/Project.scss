@@ -14,22 +14,20 @@
   width: 20vw;
 }
 
-.Project .item {
+.Project .carousel-item {
   margin: auto;
-}
-
-.Project .item a img {
-  margin: auto;
-  max-height: 60vh;
-}
-
-.Project .item p {
   padding: 1em 0;
   text-align: center;
-}
-.Project .item p a {
-  color: #000000;
-  text-decoration: none;
+
+  img {
+    margin: auto;
+    max-height: 60vh;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
