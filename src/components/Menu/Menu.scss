@@ -1,6 +1,6 @@
 .Menu a {
   color: #000000;
-  padding: 0 1em;
+  padding: 0 0 0 1em;
   text-decoration: none;
 }
 
@@ -12,12 +12,7 @@
 
 @media screen and (min-width: 768px) {
   .Menu {
-    /*text-align: right;*/
     height: 3em;
-  }
-
-  .Menu a {
-    padding: 0 0 0 1em;
   }
 
   .Menu a:before,

@@ -6,8 +6,8 @@
   text-align: center; }
 
 .ProjectCarousel img {
-  width: auto;
-  max-height: 70vh; }
+  width: 100%;
+  padding: 0 1em; }
 
 .ProjectCarousel .description p {
   text-align: left;
@@ -37,8 +37,8 @@
     margin-bottom: 4em; }
     .ProjectCarousel .carousel-item {
       min-height: 50vh; }
-    .ProjectCarousel .carousel-caption {
-      text-align: left;
-      margin: auto; }
+      .ProjectCarousel .carousel-item img {
+        max-height: 75vh;
+        width: auto; }
     .ProjectCarousel .description p {
       max-width: 40em; } }

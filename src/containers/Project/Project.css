@@ -13,12 +13,9 @@
   width: 20vw; }
 
 .Project .carousel-item {
-  margin: auto;
-  padding: 1em 0;
   text-align: center; }
   .Project .carousel-item img {
-    margin: auto;
-    max-height: 60vh; }
+    margin: auto; }
   .Project .carousel-item a {
     color: #000000;
     text-decoration: none; }
