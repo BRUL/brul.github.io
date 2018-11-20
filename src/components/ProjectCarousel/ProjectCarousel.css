@@ -1,5 +1,9 @@
 .ProjectCarousel {
-  width: 100%; }
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
 
 .ProjectCarousel .carousel-item {
   margin: auto;
@@ -34,11 +38,12 @@
 
 @media screen and (min-width: 768px) {
   .ProjectCarousel {
-    margin-bottom: 4em; }
+    margin-bottom: 4em;
+    min-height: 0; }
     .ProjectCarousel .carousel-item {
-      min-height: 50vh; }
+      min-height: 40vh; }
       .ProjectCarousel .carousel-item img {
-        max-height: 75vh;
+        max-height: 60vh;
         width: auto; }
     .ProjectCarousel .description p {
       max-width: 40em; } }
