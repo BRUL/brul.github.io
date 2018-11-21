@@ -32,7 +32,8 @@
     "grunt": "^1.0.3",
     "grunt-responsive-images": "1.10.1",
     "jimp": "0.5.0",
-    "recursive-readdir": "2.2.2"
+    "recursive-readdir": "2.2.2",
+    "surge": "0.20.1"
   },
   "browserslist": [
     ">0.2%",
