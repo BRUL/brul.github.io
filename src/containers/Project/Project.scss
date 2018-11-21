@@ -14,22 +14,17 @@
   width: 20vw;
 }
 
-.Project .item {
-  margin: auto;
-}
-
-.Project .item a img {
-  margin: auto;
-  max-height: 60vh;
-}
-
-.Project .item p {
-  padding: 1em 0;
+.Project .carousel-item {
   text-align: center;
-}
-.Project .item p a {
-  color: #000000;
-  text-decoration: none;
+
+  img {
+    margin: auto;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
 }
 
 @media screen and (min-width: 768px) {

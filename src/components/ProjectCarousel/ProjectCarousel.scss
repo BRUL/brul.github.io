@@ -1,5 +1,9 @@
 .ProjectCarousel {
   width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .ProjectCarousel .carousel-item {
@@ -8,15 +12,16 @@
 }
 
 .ProjectCarousel img {
-  width: auto;
-  max-height: 70vh;
+  width: 100%;
+  padding: 0 1em;
 }
 
 .ProjectCarousel .description p {
   text-align: left;
-  max-width: 50vw;
   margin: auto;
   margin-bottom: 1em;
+  padding: 0 1em;
+  vertical-align: middle;
 }
 
 /* controls */
@@ -28,17 +33,30 @@
   cursor: pointer;
 }
 
+.ProjectCarousel .carousel-control-prev {
+  justify-content: flex-start;
+  padding-left: 4em;
+}
+.ProjectCarousel .carousel-control-next {
+  justify-content: flex-end;
+  padding-right: 4em;
+}
+
 @media screen and (min-width: 768px) {
   .ProjectCarousel {
     margin-bottom: 4em;
-  }
+    min-height: 0;
 
-  .ProjectCarousel .carousel-item {
-    min-height: 50vh;
-  }
+    .carousel-item {
+      min-height: 40vh;
+      img {
+        max-height: 60vh;
+        width: auto;
+      }
+    }
 
-  .ProjectCarousel .carousel-caption {
-    text-align: left;
-    margin: auto;
+    .description p {
+      max-width: 40em;
+    }
   }
 }

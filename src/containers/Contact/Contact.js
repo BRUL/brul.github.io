@@ -34,11 +34,11 @@ class Contact extends Component {
         <div className="content row">
           <div className="col-sm-8 offset-sm-2 col-md-4 offset-md-4">
             <p>
-              Huisstijl ontworpen door <a href="http://dogma.eu" target="_blank" rel="noopener noreferrer" title="Dogma">Dogma</a>.
+              Huisstijl: <a href="http://dogma.eu" target="_blank" rel="noopener noreferrer" title="Dogma">Dogma</a>.
               <br />
-              Website door <a href="http://newfront.eu" target="_blank" rel="noopener noreferrer" title="Niels Dequeker">Niels Dequeker</a>.
+              Webdesign: <a href="http://newfront.eu" target="_blank" rel="noopener noreferrer" title="Niels Dequeker">Niels Dequeker</a>.
               <br />
-              Fotografie Folie à Deux en Kolom <a href="http://koenvandamme.be" target="_blank" rel="noopener noreferrer" title="Koen Van Damme">Koen van Damme</a>.
+              Fotografie: <a href="http://koenvandamme.be" target="_blank" rel="noopener noreferrer" title="Koen Van Damme">Koen van Damme</a>.
             </p>
           </div>
         </div>

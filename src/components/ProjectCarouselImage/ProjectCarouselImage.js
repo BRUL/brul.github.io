@@ -42,8 +42,8 @@ class ProjectCarouselImage extends Component {
                /responsive-images/${projectName}/${imageName}-tiny_@1x.jpg 145w
              `}
            sizes="
-              (min-width: 768px) 70vw,
-              100vw
+              (min-width: 768px) calc(100vw-8em),
+              calc(100vw-2em)
              "
            alt={alt} title={title}
            onLoad={this.onImageLoaded} />

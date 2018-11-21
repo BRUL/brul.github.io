@@ -43,7 +43,7 @@ class ProjectThumbnail extends Component {
              `}
                sizes="
               (min-width: 576px) calc(25vw - 8em),
-              100vw
+              calc(100vw - 2em)
              "
                alt={title} title={title}
                onLoad={this.onImageLoaded} />
