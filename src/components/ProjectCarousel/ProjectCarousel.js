@@ -55,11 +55,11 @@ class ProjectCarousel extends Component {
     const { activeIndex } = this.state;
 
     const slides = project.pictures
-      .map(picture =>
+      .map((picture, i) =>
         <CarouselItem
           onExiting={this.onExiting}
           onExited={this.onExited}
-          key={picture.src}
+          key={i}
           cssModule={{}}
         >
           {
