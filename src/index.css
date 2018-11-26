@@ -6322,7 +6322,7 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 0;
   transition: opacity 1500ms ease-in; }
 
-.fade-exit.fade-exit-active.Projects, .fade-exit.fade-exit-active.Project {
+.fade-exit.fade-exit-active.Info, .fade-exit.fade-exit-active.Contact, .fade-exit.fade-exit-active.Projects, .fade-exit.fade-exit-active.Project {
   display: none; }
 
 /*

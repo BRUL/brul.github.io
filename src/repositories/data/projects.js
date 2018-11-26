@@ -7,11 +7,15 @@ export default {
     thumb: 'kolom0',
     pictures: [
       {
-        src: 'kolom1',
+        src: 'kolom6',
         description: ''
       },
       {
         src: 'kolom2',
+        description: ''
+      },
+      {
+        src: 'kolom1',
         description: ''
       },
       {
@@ -24,10 +28,6 @@ export default {
       },
       {
         src: 'kolom5',
-        description: ''
-      },
-      {
-        src: 'kolom6',
         description: ''
       },
       {
