@@ -72,9 +72,9 @@ class ProjectCarousel extends Component {
           }
 
           {
-            picture.description ? 
+            picture.description ?
               <div className="description">
-                <p>{picture.description}</p>
+                 <p dangerouslySetInnerHTML={({ __html: picture.description })} />
               </div> : null
           }
         </CarouselItem>
