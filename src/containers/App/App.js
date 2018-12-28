@@ -4,14 +4,13 @@ import {
   Switch,
   BrowserRouter as Router
 } from 'react-router-dom';
-import asyncComponent from '../../components/AsyncComponent/AsyncComponent';
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
-const AsyncSplash = asyncComponent(() => import('../Splash/Splash'));
-const AsyncProjects = asyncComponent(() => import('../Projects/Projects'));
-const AsyncProject = asyncComponent(() => import('../Project/Project'));
-const AsyncInfo = asyncComponent(() => import('../Info/Info'));
-const AsyncContact = asyncComponent(() => import('../Contact/Contact'));
+import Splash from '../Splash/Splash';
+import Project from '../Project/Project';
+import Projects from '../Projects/Projects';
+import Info from '../Info/Info';
+import Contact from '../Contact/Contact';
 
 const styles = {};
 
@@ -31,11 +30,11 @@ const App = () => (
           <TransitionGroup>
             <CSSTransition key={location.key} classNames="fade" timeout={1500}>
               <Switch location={location}>
-                <Route exact path='/' component={AsyncSplash} />
-                <Route exact path='/projects' component={AsyncProjects} />
-                <Route exact path='/projects/:id' component={AsyncProject} />
-                <Route exact path='/info' component={AsyncInfo} />
-                <Route exact path='/contact' component={AsyncContact} />
+                <Route exact path='/' component={Splash} />
+                <Route exact path='/projects' component={Projects} />
+                <Route exact path='/projects/:id' component={Project} />
+                <Route exact path='/info' component={Info} />
+                <Route exact path='/contact' component={Contact} />
               </Switch>
             </CSSTransition>
           </TransitionGroup>
