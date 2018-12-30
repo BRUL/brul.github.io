@@ -35,7 +35,12 @@ export default {
         description: ''
       },
       {
-        description: `Kolom is de ruggengraat die de boeken een vertikale positie in de ruimte laat aannemen.`
+        description: `
+          <h1>Test</h1>
+          <p>
+            Kolom is de ruggengraat die de boeken een vertikale positie in de ruimte laat aannemen.
+          </p>
+        `
       }
     ]
   },
