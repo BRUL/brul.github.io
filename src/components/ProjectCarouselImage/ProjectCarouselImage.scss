@@ -1,8 +1,0 @@
-.ProjectCarouselImage {
-  transition: filter .5s ease;
-  width: 100%;
-
-  &:not(.loaded) {
-    filter: blur(25px);
-  }
-}
