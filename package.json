@@ -25,16 +25,17 @@
     "build": "npm-run-all build-css build-js && react-snapshot",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && cd build && mv index.html 200.html && surge .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "convert-placeholders-to-base64-images": "node convert-placeholders-to-base64-images.js",
     "generate-responsive-images": "grunt && npm run convert-placeholders-to-base64-images"
   },
   "devDependencies": {
+    "gh-pages": "2.0.1",
     "grunt": "^1.0.4",
     "grunt-responsive-images": "1.10.1",
     "jimp": "0.6.1",
-    "recursive-readdir": "2.2.2",
-    "surge": "0.20.3"
+    "recursive-readdir": "2.2.2"
   },
   "browserslist": [
     ">0.2%",

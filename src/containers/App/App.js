@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Route,
   Switch,
-  BrowserRouter as Router
+  HashRouter as Router
 } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
