@@ -36,8 +36,8 @@ export default {
       },
       {
         description: `
-          <p><i>Kolom</i> is een vrijstaande boekenkast.<br>Ze bestaat uit een moduleerbare houten structuur die op een betonnen sokkel pivoteert. In situ brengt het meubel een bepalende architecturale kwaliteit (visuele referentie): de circulaire vorm doet de aanschouwer denken aan een zuil terwijl de horizontale onderverdeling plaats biedt voor het rangschikken van boeken.</p>
-          <p>Vervaardigd uit Afromosiahout vormt deze opeenvolging van x-en een ritmische en opwaartse geometrie die de mogelijkheid van een oneindige uitzetting suggereert. Ze rust op een betonnen voetstuk die als pivot en verbinding dient tussen de grond en de houten structuur. Het geheel vormt een microarchitectuur die functie en vorm verheffen tot een nieuwe harmonie.</p>
+          <p><i>Kolom</i> is een vrijstaande boekenkast.<br>Ze bestaat uit een moduleerbare houten structuur die op een betonnen sokkel pivoteert. In situ brengt het meubel een bepalende architecturale kwaliteit: de circulaire vorm doet de aanschouwer denken aan een zuil terwijl de horizontale onderverdeling plaats biedt voor het rangschikken van boeken.</p>
+          <p>Vervaardigd uit Afromosiahout vormt deze opeenvolging van x-en een ritmische en opwaartse geometrie die de mogelijkheid van een oneindige uitzetting suggereert. Ze rust op een betonnen voetstuk die als pivot en verbinding dient tussen de grond en de houten structuur. Het meubel vormt een microarchitectuur dat functie en vorm verheft tot een nieuwe harmonie.</p>
         `
       }
     ]
