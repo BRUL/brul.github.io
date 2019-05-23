@@ -1,62 +1,28 @@
+
 .ProjectCarousel {
   width: 100%;
-  min-height: 100vh;
-  display: flex;
+  padding: 0 1em;
   justify-content: center;
-  flex-direction: column;
-}
 
-.ProjectCarousel .carousel-item {
-  margin: auto;
-  text-align: center;
-}
-
-.ProjectCarousel img {
-  width: 100%;
-  padding: 0 1em;
-}
-
-.ProjectCarousel .description p {
-  text-align: left;
-  margin: auto;
-  margin-bottom: 1em;
-  padding: 0 1em;
-  vertical-align: middle;
-}
-
-/* controls */
-.ProjectCarousel .carousel-control-prev,
-.ProjectCarousel .carousel-control-next {
-  background: none;
-  color: #000000;
-  width: 50vw;
-  cursor: pointer;
-}
-
-.ProjectCarousel .carousel-control-prev {
-  justify-content: flex-start;
-  padding-left: 4em;
-}
-.ProjectCarousel .carousel-control-next {
-  justify-content: flex-end;
-  padding-right: 4em;
+  p {
+    text-align: left;
+    margin: 0 auto 1em auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .ProjectCarousel {
-    margin-bottom: 4em;
-    min-height: 0;
 
-    .carousel-item {
-      min-height: 40vh;
-      img {
-        max-height: 60vh;
-        width: auto;
-      }
+  .ProjectCarousel {
+    padding: 4em;
+
+    img {
+      max-height: 60vh;
+      width: auto;
     }
 
-    .description p {
+    p {
       max-width: 40em;
     }
   }
+
 }
