@@ -25,7 +25,7 @@ class Project extends Component {
             <span>{this.state.project.description}</span>
           </Header>
 
-          <div className="row">
+          <div className="content row">
             <ProjectCarousel project={this.state.project} />
           </div>
         </div>

@@ -81,7 +81,7 @@ class ProjectCarousel extends Component {
 
     return (
       <Carousel
-        className="ProjectCarousel col-xs-12"
+        className="ProjectCarousel col-12"
         activeIndex={activeIndex}
         next={this.next}
         previous={this.previous}

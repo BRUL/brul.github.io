@@ -12,7 +12,7 @@ class Projects extends Component {
       <div className="Projects container-fluid">
         <Header/>
 
-        <div className="row">
+        <div className="content row">
           {
             projectRepository
               .getAll()

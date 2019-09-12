@@ -22,8 +22,10 @@
 
 @media screen and (min-width: 768px) {
   .Project {
-    /*max-width: 100vw;*/
-    /*margin: -15px;*/ }
+    max-width: 100vw;
+    margin-bottom: 0; }
+    .Project .content {
+      padding: 0 1em 1em; }
   .Project .project {
     text-align: left;
     padding: 0 4em; }

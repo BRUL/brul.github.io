@@ -10,7 +10,7 @@
   .ProjectCarousel {
     padding: 0 4em; }
     .ProjectCarousel img {
-      max-height: 60vh;
-      width: auto; }
+      width: auto;
+      max-height: 65vh; }
     .ProjectCarousel p {
       max-width: 40em; } }

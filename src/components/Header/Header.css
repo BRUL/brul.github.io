@@ -19,7 +19,8 @@
 
 @media screen and (min-width: 768px) {
   .Header {
-    padding: 4em; }
+    padding: 4em;
+    height: 25vh; }
     .Header .logo {
       text-align: left; }
       .Header .logo img {
