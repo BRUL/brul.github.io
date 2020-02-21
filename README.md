@@ -21,6 +21,8 @@ $ npm run generate-responsive-images
 
 ## Deployen
 
+```
 $ git pull
 $ npm install
 $ npm run deploy
+```
