@@ -22,7 +22,7 @@ class Project extends Component {
     return project ? (
         <div className="Project container-fluid">
           <Header>
-            <span>{this.state.project.description}</span>
+            {this.state.project.description}
           </Header>
 
           <div className="content row">

@@ -16,7 +16,7 @@ class Header extends Component {
         <div className="col-10 col-lg-8 text-right">
           {
             this.props.children ?
-              <p className="Menu"> { this.props.children } </p> :
+              <h1 className="Title"> { this.props.children } </h1> :
               <Menu />
           }
         </div>
