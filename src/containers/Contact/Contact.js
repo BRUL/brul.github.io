@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../../components/Header/Header';
-import './Contact.css';
+import './Contact.scss';
 
 // thanks https://codepen.io/ruandre/pen/howFi for the icons
 

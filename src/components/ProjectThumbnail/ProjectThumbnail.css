@@ -1,27 +1,31 @@
 .ProjectThumbnail {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   width: 100%; }
   .ProjectThumbnail p {
     display: none; }
 
 @media screen and (min-width: 576px) {
+  .ProjectThumbnail a,
+  .ProjectThumbnail img {
+    display: block;
+    width: 100%; }
+  .ProjectThumbnail img {
+    transition: filter .5s ease; }
+  .ProjectThumbnail:not(.loaded) img {
+    filter: blur(25px); }
+  .ProjectThumbnail p {
+    display: block;
+    padding: 1em 0 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; }
+  .ProjectThumbnail img:hover {
+    filter: opacity(0.75); }
+  .ProjectThumbnail a:hover + p {
+    transition: none;
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1; } }
+
+@media screen and (min-width: 768px) {
   .ProjectThumbnail {
-    padding: 0 3em; }
-    .ProjectThumbnail a,
-    .ProjectThumbnail img {
-      display: block;
-      width: 100%; }
-    .ProjectThumbnail img {
-      transition: filter .5s ease; }
-    .ProjectThumbnail:not(.loaded) img {
-      filter: blur(25px); }
-    .ProjectThumbnail p {
-      display: block;
-      padding: 1em 0;
-      opacity: 0;
-      transition: opacity 0.5s ease-in-out; }
-    .ProjectThumbnail a:hover + p {
-      transition: none;
-      zoom: 1;
-      filter: alpha(opacity=100);
-      opacity: 1; } }
+    padding: 0 2rem; } }

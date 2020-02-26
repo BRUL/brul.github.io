@@ -1,10 +1,10 @@
 .Header {
-  padding: 1em;
+  padding: 1rem;
 
   .logo,
   .text-right {
     padding: 0;
-    margin: 0 auto 1em;
+    margin: 0 auto 1rem;
   }
 
   .Title {
@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 768px) {
   .Header {
-    padding: 4em;
+    padding: 4rem;
     height: 25vh;
 
     a:before,
@@ -43,14 +43,14 @@
     }
 
     .Title {
-      height: 3em;
+      height: 3rem;
     }
 
     .logo {
       text-align: left;
 
       img {
-        height: 3em;
+        height: 3rem;
       }
     }
   }

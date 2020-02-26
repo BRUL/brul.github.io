@@ -1,7 +1,7 @@
 export default {
   'kolom': {
+    display: true,
     name: 'kolom',
-    order: 1703,
     title: 'Kolom',
     description: 'Kolom, 2017.',
     thumb: 'kolom0',
@@ -43,8 +43,8 @@ export default {
     ]
   },
   'folieadeux': {
+    display: true,
     name: 'folieadeux',
-    order: 1701,
     title: 'Folie à Deux',
     description: 'Folie à Deux, 2017.',
     thumb: 'folieadeux0',
@@ -92,8 +92,8 @@ export default {
     ]
   },
   'still': {
+    display: true,
     name: 'still',
-    order: 1510,
     title: 'Still',
     description: 'Still, 2015.',
     thumb: 'still0',
@@ -120,8 +120,8 @@ export default {
     ]
   },
   'gloriette': {
+    display: true,
     name: 'gloriette',
-    order: 1509,
     title: 'Gloriette',
     description: 'Gloriette, 2015.',
     thumb: 'gloriette0',
@@ -172,6 +172,65 @@ export default {
           <p>Een verdiepingshoge structuur biedt steun aan het wolkendak, omlijst muren van tuin, met vensters tussen wilgenbomen.<br>
           Een <i>gloriëtte:</i> om geborgen buiten te vertoeven, een anker voor het huis, een uitnodiging om tussen natuur te tafelen.</p>
         `
+      }
+    ]
+  },
+  'untitled': {
+    display: false,
+    name: 'untitled',
+    title: 'Untitled',
+    description: 'Untitled, 2019.',
+    thumb: 'gloriette0',
+    pictures: [
+      {
+        src: 'untitled1',
+        description: ``
+      },
+      {
+        src: '',
+        description: `
+          <h2>Perspectief en licht</h2>
+          <p>Een reeks rails waarop vrij spots kunnen geplaatst worden, die denser wordt naar de ingang toe. Dit laat de uitbater toe om zowel gericht als gezoneerde verlichting te gebruiken.</p>
+          <p>Het patroon heeft een omgekeerd diepte-effect: de lange ruimte lijkt—bij het naar binnen komen—korter, uitnodigender. Tegelijkertijd worden de rails op één hoogte gemonteerd, waardoor de verschillende plafondniveaus verdwijnen.</p>
+          `
+      },
+      {
+        src: 'untitled2',
+        description: ''
+      },
+      {
+        src: '',
+        description: `
+          <h2>Muren-hoeken-massa</h2>
+          <p>We hebben rust en eenheid in de ruimte geïntroduceerd door het plaatsen van grote, massieve voorzetwanden. Deze vlakken bieden een houvast, een rechte lijn waartegen de vele hoeken en kanten, insprongen en niveauverschillen zich kunnen oriënteren.</p>
+          `
+      },
+      {
+        src: 'untitled3',
+        description: ''
+      },
+      {
+        src: '',
+        description: `
+          <h2>Verticaal podium</h2>
+          <p>Een vrijheid, een plaats van mogelijkheden bieden de grote witte vlakken en de gerichte verlichting.</p>
+          `
+      },
+      {
+        src: 'untitled4',
+        description: ''
+      },
+      {
+        src: 'untitled5',
+        description: ''
+      },
+      {
+        src: 'untitled6',
+        description: ''
+      },
+      {
+        src: 'untitled7',
+        description: ''
       }
     ]
   }

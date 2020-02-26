@@ -67,7 +67,7 @@ class ProjectCarousel extends Component {
               <ProjectCarouselImage projectName={project.name}
                                     imageName={picture.src}
                                     alt={project.name}
-                                    title={picture.description}
+                                    title={project.name}
               /> : null
           }
 

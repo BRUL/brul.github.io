@@ -1,12 +1,12 @@
 .Header {
-  padding: 1em; }
+  padding: 1rem; }
   .Header .logo,
   .Header .text-right {
     padding: 0;
-    margin: 0 auto 1em; }
-  .Header .Menu {
-    padding: 0;
-    margin: 0; }
+    margin: 0 auto 1rem; }
+  .Header .Title {
+    font-size: inherit;
+    margin-bottom: 0; }
   .Header .logo a {
     padding: 0; }
     .Header .logo a img {
@@ -19,9 +19,20 @@
 
 @media screen and (min-width: 768px) {
   .Header {
-    padding: 4em;
+    padding: 4rem;
     height: 25vh; }
+    .Header a:before,
+    .Header h1:before,
+    .Header a {
+      /* create a full-height inline block pseudo=element */
+      content: ' ';
+      display: inline-block;
+      vertical-align: bottom;
+      /* vertical alignment of the inline element */
+      height: 100%; }
+    .Header .Title {
+      height: 3rem; }
     .Header .logo {
       text-align: left; }
       .Header .logo img {
-        height: 3em; } }
+        height: 3rem; } }

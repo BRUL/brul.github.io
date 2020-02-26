@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../../components/Header/Header';
 import ProjectThumbnail from '../../components/ProjectThumbnail/ProjectThumbnail';
-import './Projects.css';
+import './Projects.scss';
 
 import ProjectRepository from '../../repositories/project-repository';
 const projectRepository = new ProjectRepository();
@@ -16,6 +16,9 @@ class Projects extends Component {
           {
             projectRepository
               .getAll()
+              .filter(function (project) { // filter first for friends
+                    return project.display === true // returns a new array
+                  })
               .map((project, index) =>
                 <ProjectThumbnail name={project.name} title={project.title} thumb={project.thumb} key={index} />
               )

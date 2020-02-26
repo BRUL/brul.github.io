@@ -1,5 +1,5 @@
 .ProjectThumbnail {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   width: 100%;
 
   p {
@@ -9,6 +9,7 @@
 
 @media screen and (min-width: 576px) {
   .ProjectThumbnail {
+
     a,
     img {
       display: block;
@@ -25,7 +26,7 @@
 
     p {
       display: block;
-      padding: 1em 0;
+      padding: 1em 0 0;
       opacity: 0;
       transition: opacity 0.5s ease-in-out;
     }
@@ -44,6 +45,6 @@
 
 @media screen and (min-width: 768px) {
   .ProjectThumbnail {
-    padding: 0 3em;
+    padding: 0 2rem;
   }
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Header from '../../components/Header/Header';
 import ProjectCarousel from '../../components/ProjectCarousel/ProjectCarousel';
-import './Project.css';
+import './Project.scss';
 
 import ProjectRepository from '../../repositories/project-repository';
 const projectRepository = new ProjectRepository();
