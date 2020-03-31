@@ -10,6 +10,7 @@ import Project from '../Project/Project';
 import Projects from '../Projects/Projects';
 import Info from '../Info/Info';
 import Contact from '../Contact/Contact';
+import Objects from '../Objects/Objects';
 
 const App = () => (
   <Router>
@@ -21,6 +22,7 @@ const App = () => (
             <Route exact path='/projects/:id' component={Project} />
             <Route exact path='/info' component={Info} />
             <Route exact path='/contact' component={Contact} />
+            <Route exact path='/objects' component={Objects} />
           </Switch>
       )}
     />

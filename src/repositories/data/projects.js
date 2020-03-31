@@ -201,7 +201,7 @@ export default {
       {
         src: '',
         description: `
-          <h2>Muren-hoeken-massa</h2>
+          <h2>Muren, hoeken en massa</h2>
           <p>We hebben rust en eenheid in de ruimte geïntroduceerd door het plaatsen van grote, massieve voorzetwanden. Deze vlakken bieden een houvast, een rechte lijn waartegen de vele hoeken en kanten, insprongen en niveauverschillen zich kunnen oriënteren.</p>
           `
       },
@@ -213,7 +213,7 @@ export default {
         src: '',
         description: `
           <h2>Verticaal podium</h2>
-          <p>Een vrijheid, een plaats van mogelijkheden bieden de grote witte vlakken en de gerichte verlichting.</p>
+          <p>Grote witte vlakken en gerichte verlichting creëren een plaats van vrijheid, van mogelijkheden.</p>
           `
       },
       {
