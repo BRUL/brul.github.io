@@ -175,62 +175,40 @@ export default {
       }
     ]
   },
-  'untitled': {
+  'wittekamer': {
     display: false,
-    name: 'untitled',
-    title: 'Untitled',
-    description: 'Untitled, 2019.',
-    thumb: 'gloriette0',
+    name: 'wittekamer',
+    title: 'Witte Kamer',
+    description: 'Witte Kamer, 2019.',
+    thumb: 'thumbnail',
     pictures: [
       {
-        src: 'untitled1',
+        src: 'a-tree-is-purposefully-poised-in-the-inner-courtyard',
         description: ``
       },
       {
-        src: '',
-        description: `
-          <h2>Perspectief en licht</h2>
-          <p>Een reeks rails waarop vrij spots kunnen geplaatst worden, die denser wordt naar de ingang toe. Dit laat de uitbater toe om zowel gericht als gezoneerde verlichting te gebruiken.</p>
-          <p>Het patroon heeft een omgekeerd diepte-effect: de lange ruimte lijkt—bij het naar binnen komen—korter, uitnodigender. Tegelijkertijd worden de rails op één hoogte gemonteerd, waardoor de verschillende plafondniveaus verdwijnen.</p>
-          `
+        src: 'windows-black-inner-city',
+        description: ``
       },
       {
-        src: 'untitled2',
-        description: ''
+        src: 'light-radiator',
+        description: ``
       },
       {
-        src: '',
-        description: `
-          <h2>Muren, hoeken en massa</h2>
-          <p>We hebben rust en eenheid in de ruimte geïntroduceerd door het plaatsen van grote, massieve voorzetwanden. Deze vlakken bieden een houvast, een rechte lijn waartegen de vele hoeken en kanten, insprongen en niveauverschillen zich kunnen oriënteren.</p>
-          `
+        src: 'fenced-in-by-lowered-walls',
+        description: ``
       },
       {
-        src: 'untitled3',
-        description: ''
+        src: 'reflects-what-is-happening-to-the-wider-fabric-of-space',
+        description: ``
       },
       {
-        src: '',
-        description: `
-          <h2>Verticaal podium</h2>
-          <p>Grote witte vlakken en gerichte verlichting creëren een plaats van vrijheid, van mogelijkheden.</p>
-          `
+        src: 'light-fixtures',
+        description: ``
       },
       {
-        src: 'untitled4',
-        description: ''
-      },
-      {
-        src: 'untitled5',
-        description: ''
-      },
-      {
-        src: 'untitled6',
-        description: ''
-      },
-      {
-        src: 'untitled7',
-        description: ''
+        src: 'architectural-fabric-is-read-as-a-composite',
+        description: ``
       }
     ]
   }
